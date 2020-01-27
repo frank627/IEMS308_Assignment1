@@ -7,8 +7,8 @@ Finding abnormal cluster (outlier) to identify rooms for improvements in Medicar
 * Or run source_code.py.
 
 ### Prerequisites
-Python (numpy, pandas, csv, copy, sklearn, scipy, matplotlib, seaborn)
-Tableau
+* Python (numpy, pandas, csv, copy, sklearn, scipy, matplotlib, seaborn)
+* Tableau
 
 ### What file to check for what
 On Canvas announcement, it says that we need to submit 4 things. 
