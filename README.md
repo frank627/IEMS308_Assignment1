@@ -13,9 +13,9 @@ Tableau
 ### What file to check for what
 On Canvas announcement, it says that we need to submit 4 things. 
 * The source code: check "source_code.ipynb" or "source_code.py". I recommend source code.ipynb because it is easier to read.
-* Sample output of the code (as text file): Check "data/clustered_data.csv" or "data/clustered_data.txt"
+* Sample output of the code (as text file): Check "data/clustered_data.csv" or "data/clustered_data.txt". I recommend CSV file because it is more structured
 * A half a page 'executive summary' of the findings: Check "Executive Summary.pdf"
-* Document with all findings: check "Report.pdf" 
+* Document with all findings: Check "Report.pdf" 
 
 ## File Structure
 ```
