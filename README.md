@@ -4,7 +4,7 @@ Finding abnormal cluster (outlier) to identify rooms for improvements in Medicar
 
 ## How to run 
 * Download [Medicare_Provider_Util_Payment_PUF_CY2017.txt](https://drive.google.com/file/d/1FlrzgC0vUllsfoEICzo0uMmHzFnBGlxG/view?usp=sharing) and [converted.csv](https://drive.google.com/file/d/1TgXTiDHi7rL6RSiGCl-GDNa3YSHb7yG1/view?usp=sharing). Put those file in data folder. I could not push those files because the file size of those files exceeded the github limit. 
-* Open source code.ipynb file and run each code snippet.
+* Open source code.ipynb file and run each code snippet. I recommend this way than running source code.py
 * Or run source code.py.
 
 ### Prerequisites
@@ -21,13 +21,13 @@ On Canvas announcement, it says that we need to submit 4 things.
 ## File Structure
 ```
 IEMS308_Assignment1
-├── README.md 											: This document.
-├── source code.ipynb 									: Code for this assignment. Recommend openning this rather than py file.
-├── source code.py 										: Same as source code.ipynb but in Python format.
-├── cluster analysis.twb 								: Tableau file used to do analysis on clusters.
-├── cluster analysis.pptx 								: Same as twb file but without interactivity.
-├── Report.pdf 											: Report on this assignment 1. This also includes Executive Summary.
-├── Executive Summary.pdf 								: Copy of Executive Summary of the report.
+├── README.md 					: This document.
+├── source code.ipynb 					: Code for this assignment. Recommend openning this rather than py file.
+├── source code.py 					: Same as source code.ipynb but in Python format.
+├── cluster analysis.twb 					: Tableau file used to do analysis on clusters.
+├── cluster analysis.pptx 					: Same as twb file but without interactivity.
+├── Report.pdf 					: Report on this assignment 1. This also includes Executive Summary.
+├── Executive Summary.pdf 					: Copy of Executive Summary of the report.
 ├── data
 │	├── Medicare_Provider_Util_Payment_PUF_CY2017.txt 	: Original data file downloaded from the website. Download it as explained in "How to run" section.
 │	├── converted.csv									: Original data file that is converted to CSV. Download it as explained in "How to run" section.
