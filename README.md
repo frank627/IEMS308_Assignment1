@@ -21,26 +21,26 @@ On Canvas announcement, it says that we need to submit 4 things.
 ## File Structure
 ```
 IEMS308_Assignment1
-├── README.md 					: This document.
+├── README.md 							: This document.
 ├── source code.ipynb 					: Code for this assignment. Recommend openning this rather than py file.
 ├── source code.py 					: Same as source code.ipynb but in Python format.
 ├── cluster analysis.twb 					: Tableau file used to do analysis on clusters.
 ├── cluster analysis.pptx 					: Same as twb file but without interactivity.
-├── Report.pdf 					: Report on this assignment 1. This also includes Executive Summary.
+├── Report.pdf 							: Report on this assignment 1. This also includes Executive Summary.
 ├── Executive Summary.pdf 					: Copy of Executive Summary of the report.
 ├── data
 │	├── Medicare_Provider_Util_Payment_PUF_CY2017.txt 	: Original data file downloaded from the website. Download it as explained in "How to run" section.
-│	├── converted.csv									: Original data file that is converted to CSV. Download it as explained in "How to run" section.
-│	├── filtered.csv 									: Data of individual service providers in Wisconsin + aggregated based on npi.
-│	├── clustered_data.csv 								: filtered.csv + the column that represents the cluster that each data belongs to. 
-│	└── clustered_data.txt 								: Same as clustered_data.csv but in txt format. 
+│	├── converted.csv					: Original data file that is converted to CSV. Download it as explained in "How to run" section.
+│	├── filtered.csv 					: Data of individual service providers in Wisconsin + aggregated based on npi.
+│	├── clustered_data.csv 					: filtered.csv + the column that represents the cluster that each data belongs to. 
+│	└── clustered_data.txt 					: Same as clustered_data.csv but in txt format. 
 └── img
-	├── box_and_whisker.png 							: Box and whisker plot of numerical columns.
-	├── heatmap_pearson.png								: Pearson correlation between numerical columns.
-	├── distribution_before_transformation.png			: Distribution of numerical columns before transformation.
-	├── distribution_after_transformation.png 			: Distribution of numerical columns after transformation.
-	├── scree_plot.png									: Scree plot with respect to K from 2 to 20.
-	└── silhouette_score.png 							: Silhouette score with respect to K from 2 to 20.
+	├── box_and_whisker.png 				: Box and whisker plot of numerical columns.
+	├── heatmap_pearson.png					: Pearson correlation between numerical columns.
+	├── distribution_before_transformation.png		: Distribution of numerical columns before transformation.
+	├── distribution_after_transformation.png 		: Distribution of numerical columns after transformation.
+	├── scree_plot.png					: Scree plot with respect to K from 2 to 20.
+	└── silhouette_score.png 				: Silhouette score with respect to K from 2 to 20.
 ```
 
 ## Authors
