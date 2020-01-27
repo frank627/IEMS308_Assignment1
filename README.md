@@ -1,11 +1,10 @@
 # IEMS Assignment 1
 Finding abnormal cluster (outlier) to identify rooms for improvements in Medicare's service and fairness
 
-
 ## How to run 
 * Download [Medicare_Provider_Util_Payment_PUF_CY2017.txt](https://drive.google.com/file/d/1FlrzgC0vUllsfoEICzo0uMmHzFnBGlxG/view?usp=sharing) and [converted.csv](https://drive.google.com/file/d/1TgXTiDHi7rL6RSiGCl-GDNa3YSHb7yG1/view?usp=sharing). Put those file in data folder. I could not push those files because the file size of those files exceeded the github limit. 
-* Open source code.ipynb file and run each code snippet. I recommend this way than running source code.py
-* Or run source code.py.
+* Open source_code.ipynb file and run each code snippet. I recommend this way than running source_code.py
+* Or run source_code.py.
 
 ### Prerequisites
 Python (numpy, pandas, csv, copy, sklearn, scipy, matplotlib, seaborn)
@@ -13,7 +12,7 @@ Tableau
 
 ### What file to check for what
 On Canvas announcement, it says that we need to submit 4 things. 
-* The source code: check "source code.ipynb" or "source code.py". I recommend source code.ipynb because it is easier to read.
+* The source code: check "source_code.ipynb" or "source_code.py". I recommend source code.ipynb because it is easier to read.
 * Sample output of the code (as text file): Check "data/clustered_data.csv" or "data/clustered_data.txt"
 * A half a page 'executive summary' of the findings: Check "Executive Summary.pdf"
 * Document with all findings: check "Report.pdf" 
@@ -22,10 +21,10 @@ On Canvas announcement, it says that we need to submit 4 things.
 ```
 IEMS308_Assignment1
 ├── README.md 							: This document.
-├── source code.ipynb 					: Code for this assignment. Recommend openning this rather than py file.
-├── source code.py 					: Same as source code.ipynb but in Python format.
-├── cluster analysis.twb 					: Tableau file used to do analysis on clusters.
-├── cluster analysis.pptx 					: Same as twb file but without interactivity.
+├── source_code.ipynb 						: Code for this assignment. Recommend openning this rather than py file.
+├── source_code.py 						: Same as source code.ipynb but in Python format.
+├── cluster_analysis.twb 					: Tableau file used to do analysis on clusters.
+├── cluster_analysis.pptx 					: Same as twb file but without interactivity.
 ├── Report.pdf 							: Report on this assignment 1. This also includes Executive Summary.
 ├── Executive Summary.pdf 					: Copy of Executive Summary of the report.
 ├── data
